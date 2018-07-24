@@ -15,4 +15,4 @@ def integrate(func, start, end):
     return area
 
 if __name__ == '__main__':
-    print(integrate(anonymous, -10, 10))
+    print(integrate(anonymous, 0, 10))
