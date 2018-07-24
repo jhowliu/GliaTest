@@ -3,6 +3,9 @@ from lib.crawler import *
 import sys
 
 def start(board):
+    """
+        結果輸出成JSON
+    """
     c = PttWebCrawler(as_lib=True) 
     # 目前抓最新的前五頁
     last_page = c.getLastPage(board)
