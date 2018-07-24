@@ -4,7 +4,7 @@ def anonymous(x):
 
 def integrate(func, start, end):
     # step越小越接近
-    step = 0.1t
+    step = 0.1
     intercept = start
     area = 0
 
